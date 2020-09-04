@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="app">
+        <h1 class="scoretable">0:0</h1>
+        <h1 class="whowin"></h1>
+        <div class="imgcont">
+            <img class="imgclass" id="mypng" src="./images/you.png" alt="You">
+            <img class="imgclass" id="comppng" src="./images/js2.jpg" alt="Javascript :)">
+        </div>
+        <h1 id="vs">VS</h1>
+        <div class="btnlist">
+            <button class="btn" value="tas" onclick="game(this)">Rock</button>
+            <button class="btn" value="kagit" onclick="game(this)">Paper</button>
+            <button class="btn" value="makas" onclick="game(this)">Scissors</button>
+        </div>
+        <button id="restart" onclick="restart()">Restart</button>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
