@@ -1,2 +1,4 @@
 # Rock-Paper-Scissors-Game
-### Xalq Dilinde Desek: "Simeşefo" :)
+![alt text](https://github.com/Abdullah-V/images/blob/master/rps1.png)
+![alt text](https://github.com/Abdullah-V/images/blob/master/rps2.png)
+
